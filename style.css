@@ -1,0 +1,165 @@
+*{
+font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp9911622.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+   
+    text-align: center;
+    color: rgb(126, 6, 6);
+    border: solid 1px;
+    background-color: aliceblue;
+    
+}
+.card:hover{
+    box-shadow: 0 1px 15px #11ff00;
+   
+    cursor: pointer;
+    
+
+}
+.pokemon-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px 60px;
+    
+}
+ 
+.card{
+    width:150px;
+    height: 240px;
+    box-shadow: 8px 8px 8px #00000070;
+    text-align: center;
+    background-color: rgb(126, 6, 6);
+    border-radius: 5px;
+
+}
+
+.card img{
+    width: 90%;
+    padding: 15px;
+   
+}
+
+.card ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.pokemon-id{
+    font-size: 1px;
+    color: white;
+}
+
+.pokemon-name{
+   text-transform: capitalize; 
+   color:white
+   font-weight: bold;
+}
+.pokemon-type{
+    font-size: 12px;
+    color: white;
+
+}
+.electric{
+    background-color: rgba(251, 255, 0, 0.723);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+    
+}
+.psychic{
+    background-color: rgba(255, 17, 0, 0.685);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+    
+}
+.dark{
+    background-color:rgb(227, 63, 63);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.bug{
+    background-color:rgba(213, 220, 4, 0.816);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.steel{
+    background-color:rgb(107, 107, 107);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.ghost{
+    background-color:rgb(52, 87, 211);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.rock{
+    background-color:rgb(165, 162, 0);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.flying{
+    background-color:rgb(3, 53, 234);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.water{
+    background-color:rgb(2, 145, 255);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.dragon{
+    background-color:rgb(3, 98, 171);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.ice{
+    background-color:rgb(0, 200, 255);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.normal{
+    background-color:rgb(194, 195, 196);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.poison{
+    background-color:rgb(168, 5, 232);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.grass{
+    background-color:rgb(4, 211, 107);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px;
+}
+.fire{
+    background-color:rgb(251, 2, 2);
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 2px; 
+}
